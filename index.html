@@ -10,24 +10,28 @@
     </head>
 
     <body>
-        <div class="divForm">
-            <form action="">
-                <div class="formTitle">
+        <form action="">
+            <fieldset>
+                <legend><b><i>idCurso</i></b></legend>
+
+                <div class="divTitle">
                     <h2>Login</h2>
                 </div>
 
-                <div class="formInput">
-                    <label for="">Email</label>
-                    <input type="email" placeholder="Email">
-                    <label for="">Senha</label>
-                    <input type="password" placeholder="Senha">
+                <div class="divInput">
+                    <label for=""><b>Email</b></label>
+                    <input type="email" placeholder="Email" required>
+                    <label for=""><b>Senha</b></label>
+                    <input type="password" placeholder="Senha" required>
+                    <a href="">esqueceu senha?</a>
                 </div>
 
-                <div class="formBtn">
+                <div class="divBtn">
                     <button type="button" onclick="fazerLogin()">Entrar</button>
                 </div>
-            </form>
-        </div>
+
+            </fieldset>
+        </form>
     </body>
 
     <script src="index.js"></script>
