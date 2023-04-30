@@ -6,13 +6,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #E1F5FE;
 }
 
 form {
     width: 25%;
     height: 550px;
     border-radius: 5%;
-    background-color: #1565C0;
+    background-color: #0277BD;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +39,7 @@ fieldset legend {
     margin: auto;
     align-self: center;
     color: #fff;
-    background-color: #1565C0;
+    background-color: #0277BD;
 }
 
 .divTitle {
@@ -63,6 +64,7 @@ fieldset legend {
 }
 
 .divInput a {
+    font-size: 0.90rem;
     text-align: end;
     color: #fff;
 }
@@ -80,7 +82,7 @@ fieldset legend {
     border-radius: 5%;
     border: 1px solid #fff;
     color: #fff;
-    background-color: #1565C0;
+    background-color: #0277BD;
     cursor: pointer;
 }
 
@@ -88,7 +90,7 @@ fieldset legend {
     width: 20%;
     height: 100vh;
     color: white;
-    background-color: #1565C0;
+    background-color: #0277BD;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,16 +130,20 @@ fieldset legend {
     width: 90%;
     height: 45px;
     margin-top: 10px;
-    border: 2px solid white;
+    border: 1px solid white;
     color: white;
-    background-color: #1565C0;
+    background-color: #0277BD;
     cursor: pointer;
 }
 
+.opcoesTurmas button:hover {
+    background-color: #03A9F4;
+}
 
 .telaPrincipal {
     width: 100%;
     height: 100vh;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
 }
