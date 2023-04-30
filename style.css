@@ -1,19 +1,49 @@
+/*GERAL*/
+
+:root {
+    --primary-background-color: #fff;
+    --segundary-background-color: #0277BD;
+    --primary-text-color: #000;
+    --segundary-text-color: #fff;
+    --primary-border-style: 1px solid #fff;
+}
+
 body {
     padding: 0px;
     margin: 0px;
+    width: 100%;
     height: 100vh;
+    background-color: var(--primary-background-color);
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*TELA DE LOGIN*/
+
+.divTelaLogin {
+    width: 100%;
+    height: 100vh;
     background-color: #E1F5FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 33%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 form {
-    width: 25%;
+    width: 75%;
     height: 550px;
     border-radius: 5%;
-    background-color: #0277BD;
+    background-color: var(--segundary-background-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,8 +53,8 @@ fieldset {
     width: 85%;
     height: 500px;
     border-radius: 5%;
-    color: #fff;
-    border: 2px solid #fff;
+    color: var(--segundary-text-color);
+    border: var(--primary-border-style);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -35,11 +65,11 @@ fieldset legend {
     font-size: 1.25rem;
     padding: 10px 15px;
     border-radius: 5%;
-    border: 1px solid #fff;
+    border: var(--primary-border-style);
+    color: var(--segundary-text-color);
+    background-color: var(--segundary-background-color);
     margin: auto;
     align-self: center;
-    color: #fff;
-    background-color: #0277BD;
 }
 
 .divTitle {
@@ -66,7 +96,7 @@ fieldset legend {
 .divInput a {
     font-size: 0.90rem;
     text-align: end;
-    color: #fff;
+    color: var(--segundary-text-color);
 }
 
 .divBtn {
@@ -80,17 +110,31 @@ fieldset legend {
     font-size: 1.25rem;
     padding: 10px 20px;
     border-radius: 5%;
-    border: 1px solid #fff;
-    color: #fff;
-    background-color: #0277BD;
+    color: var(--segundary-text-color);
+    background-color: var(--segundary-background-color);
+    border: var(--primary-border-style);
     cursor: pointer;
 }
+
+@media (max-width: 800px) {
+    main {
+        width: 75%;
+    }
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 100%;
+    }
+}
+
+/*TELA DO CURSO*/
 
 .menu {
     width: 20%;
     height: 100vh;
-    color: white;
-    background-color: #0277BD;
+    color: var(--segundary-text-color);
+    background-color: var(--segundary-background-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,9 +174,9 @@ fieldset legend {
     width: 90%;
     height: 45px;
     margin-top: 10px;
-    border: 1px solid white;
-    color: white;
-    background-color: #0277BD;
+    color: var(--segundary-text-color);
+    background-color:var(--segundary-background-color);
+    border: var(--primary-border-style);
     cursor: pointer;
 }
 
@@ -143,7 +187,7 @@ fieldset legend {
 .telaPrincipal {
     width: 100%;
     height: 100vh;
-    background-color: #fff;
+    background-color: var(--primary-background-color);
     display: flex;
     flex-direction: column;
 }
