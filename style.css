@@ -116,7 +116,7 @@ fieldset legend {
     cursor: pointer;
 }
 
-@media  (max-width: 576px) {
+@media  (max-width: 575px) {
     main {
         width: 100%;
     }
@@ -163,7 +163,7 @@ fieldset legend {
     }
 }
 
-@media  (max-width: 450px) {
+@media  (max-width: 475px) {
     main {
         width: 100%;
     }
