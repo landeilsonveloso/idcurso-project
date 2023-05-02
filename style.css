@@ -164,6 +164,56 @@ fieldset legend {
     }
 }
 
+@media  (max-width: 350px) {
+    main {
+        width: 100%;
+    }
+
+    form {
+        height: 400px;
+    }
+
+    fieldset {
+        width: 80%;
+        height: 350px;
+    }
+
+    fieldset legend {
+        font-size: 0.75rem;
+    }
+
+    .divTitle {
+        width: 75px;
+        font-size: 0.75rem;
+    }
+
+    .divInput {
+        width: 95%;
+        height: 250px;
+    }
+
+    .divInput label {
+        font-size: 0.75rem;
+    }
+
+    .divInput a{
+        font-size: 0.60rem;
+    }
+
+    .divInput input {
+        height: 10px;
+        font-size: 0.75rem;
+    }
+
+    .divBtn {
+        width: 75px;
+    }
+    
+    .divBtn button {
+        font-size: 0.75rem;
+    }
+}
+
 /*TELA DO CURSO*/
 
 .menu {
