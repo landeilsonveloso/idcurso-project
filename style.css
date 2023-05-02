@@ -206,7 +206,8 @@ fieldset legend {
     }
 
     .divInput span {
-        font-size: 0.70rem;
+        font-size: 0.60rem;
+        margin-bottom: 10px;
     }
 
     .divBtn {
