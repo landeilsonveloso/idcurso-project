@@ -73,7 +73,6 @@ fieldset legend {
 }
 
 .divTitle {
-    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,16 +80,19 @@ fieldset legend {
 
 .divInput {
     width: 95%;
-    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.divInput input {
-    height: 20px;
+#email {
     padding: 5px;
     margin: 10px 0px 20px 0px;
+}
+
+#senha {
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
 }
 
 .divInput span {
@@ -104,7 +106,6 @@ fieldset legend {
 }
 
 .divBtn {
-    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,12 +139,7 @@ fieldset legend {
     }
 
     .divTitle {
-        width: 75px;
         font-size: 0.90rem;
-    }
-
-    .divInput {
-        height: 250px;
     }
 
     .divInput label {
@@ -156,10 +152,6 @@ fieldset legend {
 
     .divInput span {
         font-size: 0.80rem;
-    }
-
-    .divBtn {
-        width: 75px;
     }
     
     .divBtn button {
@@ -187,13 +179,11 @@ fieldset legend {
     }
 
     .divTitle {
-        width: 50px;
         font-size: 0.85rem;
     }
 
     .divInput {
         width: 100%;
-        height: 200px;
     }
 
     .divInput label {
@@ -206,12 +196,7 @@ fieldset legend {
     }
 
     .divInput span {
-        font-size: 0.60rem;
-        margin-bottom: 10px;
-    }
-
-    .divBtn {
-        width: 50px;
+        font-size: 0.70rem;
     }
     
     .divBtn button {
