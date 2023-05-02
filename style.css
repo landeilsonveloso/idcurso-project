@@ -94,12 +94,12 @@ fieldset legend {
 }
 
 .divInput span {
+    font-size: 0.90rem;
     display: flex;
     justify-content: end;
 }
 
 .divInput span a {
-    font-size: 0.90rem;
     color: var(--segundary-text-color);
 }
 
@@ -154,7 +154,7 @@ fieldset legend {
         font-size: 0.80rem;
     }
 
-    .divInput span a {
+    .divInput span {
         font-size: 0.80rem;
     }
 
@@ -205,7 +205,7 @@ fieldset legend {
         font-size: 0.70rem;
     }
 
-    .divInput span a {
+    .divInput span {
         font-size: 0.70rem;
     }
 
