@@ -93,9 +93,13 @@ fieldset legend {
     margin: 10px 0px 20px 0px;
 }
 
-.divInput a {
+.divInput span {
+    display: flex;
+    justify-content: end;
+}
+
+.divInput span a {
     font-size: 0.90rem;
-    text-align: end;
     color: var(--segundary-text-color);
 }
 
