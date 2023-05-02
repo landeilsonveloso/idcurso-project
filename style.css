@@ -164,7 +164,7 @@ fieldset legend {
     }
 }
 
-@media  (max-width: 350px) {
+@media  (max-width: 450px) {
     main {
         width: 100%;
     }
