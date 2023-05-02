@@ -78,6 +78,10 @@ fieldset legend {
     align-items: center;
 }
 
+.divTitle span {
+    font-size: 1.25rem;
+}
+
 .divInput {
     width: 95%;
     display: flex;
