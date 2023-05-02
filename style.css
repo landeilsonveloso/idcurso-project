@@ -80,7 +80,7 @@ fieldset legend {
 }
 
 .divInput {
-    width: 90%;
+    width: 95%;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -188,7 +188,7 @@ fieldset legend {
     }
 
     .divInput {
-        width: 95%;
+        width: 100%;
         height: 250px;
     }
 
@@ -198,7 +198,6 @@ fieldset legend {
 
     
     .divInput input {
-        height: 15px;
         font-size: 0.65rem;
     }
 
