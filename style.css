@@ -163,12 +163,13 @@ fieldset legend {
     }
 }
 
-@media  (max-width: 475px) {
+@media  (max-width: 500px) {
     main {
         width: 100%;
     }
 
     form {
+        width: 80%;
         height: 400px;
     }
 
@@ -178,12 +179,12 @@ fieldset legend {
     }
 
     fieldset legend {
-        font-size: 0.75rem;
+        font-size: 0.80rem;
     }
 
     .divTitle {
         width: 50px;
-        font-size: 0.75rem;
+        font-size: 0.85rem;
     }
 
     .divInput {
@@ -192,16 +193,16 @@ fieldset legend {
     }
 
     .divInput label {
-        font-size: 0.75rem;
+        font-size: 0.80rem;
     }
 
     
     .divInput input {
-        font-size: 0.65rem;
+        font-size: 0.70rem;
     }
 
     .divInput a {
-        font-size: 0.65rem;
+        font-size: 0.70rem;
     }
 
     .divBtn {
