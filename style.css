@@ -31,7 +31,7 @@ body {
     align-items: center;
 }
 
-main {
+.divForm {
     width: 33%;
     height: 600px;
     display: flex;
@@ -125,46 +125,8 @@ fieldset legend {
     cursor: pointer;
 }
 
-@media  (max-width: 575px) {
-    main {
-        width: 100%;
-    }
-
-    form {
-        height: 450px;
-    }
-
-    fieldset {
-        height: 400px;
-    }
-
-    fieldset legend {
-        font-size: 0.90rem;
-    }
-
-    .divTitle {
-        font-size: 0.90rem;
-    }
-
-    .divInput label {
-        font-size: 0.90rem;
-    }
-
-    .divInput input {
-        font-size: 0.80rem;
-    }
-
-    .divInput span {
-        font-size: 0.80rem;
-    }
-    
-    .divBtn button {
-        font-size: 0.90rem;
-    }
-}
-
-@media  (max-width: 500px) {
-    main {
+@media (min-width: 350px) {
+    .divForm {
         width: 100%;
     }
 
@@ -178,29 +140,20 @@ fieldset legend {
         height: 350px;
     }
 
-    fieldset legend {
-        font-size: 0.80rem;
-    }
-
-    .divTitle {
-        font-size: 0.85rem;
-    }
-
     .divInput {
         width: 100%;
     }
 
     .divInput label {
-        font-size: 0.80rem;
+        font-size: 0.75rem;
     }
-
-    
+  
     .divInput input {
-        font-size: 0.70rem;
+        font-size: 0.65rem;
     }
 
     .divInput span {
-        font-size: 0.70rem;
+        font-size: 0.65rem;
     }
     
     .divBtn button {
