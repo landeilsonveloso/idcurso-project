@@ -125,7 +125,71 @@ fieldset legend {
     cursor: pointer;
 }
 
+@media (max-width: 1400px) {
+    .divForm {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .divForm {
+        width: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .divForm {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .divForm {
+        width: 80%;
+    }
+}
+
 @media (max-width: 576px) {
+    .divForm {
+        width: 100%;
+    }
+
+    form {
+        width: 70%;
+        height: 400px;
+    }
+
+    fieldset {
+        width: 80%;
+        height: 350px;
+    }
+
+    fieldset legend {
+        font-size: 0.75rem;
+    }
+
+    .divInput {
+        width: 100%;
+    }
+
+    .divInput label {
+        font-size: 0.75rem;
+    }
+  
+    .divInput input {
+        font-size: 0.65rem;
+    }
+
+    .divInput span {
+        font-size: 0.65rem;
+    }
+    
+    .divBtn button {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 500px) {
     .divForm {
         width: 100%;
     }
