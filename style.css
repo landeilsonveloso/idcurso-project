@@ -6,8 +6,9 @@
     --primary-text-color: #000;
     --segundary-text-color: #fff;
     --primary-border-style: 1px solid #fff;
-    --primary-box-shadow: 4px 4px 5px #424242;
-    --segundary-box-shadow: 16px 16px 20px #424242;
+    --desktop-box-shadow: 16px 16px 20px #424242;
+    --mobile-box-shadow: 8px 8px 20px #424242;
+    --button-box-shadow: 4px 4px 5px #424242;
 }
 
 body {
@@ -45,7 +46,7 @@ form {
     width: 75%;
     height: 550px;
     border-radius: 5%;
-    box-shadow: var(--segundary-box-shadow);
+    box-shadow: var(--desktop-box-shadow);
     background-color: var(--segundary-background-color);
     display: flex;
     justify-content: center;
@@ -162,6 +163,7 @@ fieldset legend {
     form {
         width: 70%;
         height: 400px;
+        box-shadow: var(--mobile-box-shadow);
     }
 
     fieldset {
@@ -206,6 +208,7 @@ fieldset legend {
     form {
         width: 80%;
         height: 400px;
+        box-shadow: var(--mobile-box-shadow);
     }
 
     fieldset {
