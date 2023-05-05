@@ -6,9 +6,10 @@
     --primary-text-color: #000;
     --segundary-text-color: #fff;
     --primary-border-style: 1px solid #fff;
-    --desktop-box-shadow: 16px 16px 20px #424242;
-    --mobile-box-shadow: 8px 8px 20px #424242;
-    --button-box-shadow: 4px 4px 5px #424242;
+    --desktop-primary-box-shadow: 16px 16px 20px #424242;
+    --mobile-primary-box-shadow: 8px 8px 20px #424242;
+    --desktop-segundary-box-shadow: 4px 4px 20px #424242;
+    --mobile-segundary-box-shadow: 2px 2px 20px #424242;
 }
 
 body {
@@ -46,7 +47,7 @@ form {
     width: 75%;
     height: 550px;
     border-radius: 5%;
-    box-shadow: var(--desktop-box-shadow);
+    box-shadow: var(--desktop-primary-box-shadow);
     background-color: var(--segundary-background-color);
     display: flex;
     justify-content: center;
@@ -69,7 +70,7 @@ fieldset legend {
     font-size: 1.25rem;
     padding: 10px 15px;
     border-radius: 5%;
-    box-shadow: var(--primary-box-shadow);
+    box-shadow: var(--desktop-segundary-box-shadow);
     border: var(--primary-border-style);
     color: var(--segundary-text-color);
     background-color: var(--segundary-background-color);
@@ -124,7 +125,7 @@ fieldset legend {
     font-size: 1.25rem;
     padding: 10px 20px;
     border-radius: 5%;
-    box-shadow: var(--primary-box-shadow);
+    box-shadow: var(--desktop-segundary-box-shadow);
     color: var(--segundary-text-color);
     background-color: var(--segundary-background-color);
     border: var(--primary-border-style);
@@ -163,7 +164,7 @@ fieldset legend {
     form {
         width: 70%;
         height: 400px;
-        box-shadow: var(--mobile-box-shadow);
+        box-shadow: var(--mobile-primary-box-shadow);
     }
 
     fieldset {
@@ -173,6 +174,7 @@ fieldset legend {
 
     fieldset legend {
         font-size: 0.75rem;
+        box-shadow: var(--mobile-segundary-box-shadow);
     }
 
     .divTitle span {
@@ -197,6 +199,7 @@ fieldset legend {
     
     .divBtn button {
         font-size: 0.75rem;
+        box-shadow: var(--mobile-segundary-box-shadow);
     }
 }
 
@@ -208,7 +211,7 @@ fieldset legend {
     form {
         width: 80%;
         height: 400px;
-        box-shadow: var(--mobile-box-shadow);
+        box-shadow: var(--mobile-primary-box-shadow);
     }
 
     fieldset {
