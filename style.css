@@ -3,11 +3,12 @@
 :root {
     --primary-background-color: #fff;
     --segundary-background-color: #0277BD;
+    --tertiary-background-color: #03A9F4;
     --primary-text-color: #000;
     --segundary-text-color: #fff;
     --primary-border-style: 1px solid #fff;
-    --desktop-primary-box-shadow: 16px 16px 20px #424242;
-    --mobile-primary-box-shadow: 8px 8px 10px #424242;
+    --desktop-primary-box-shadow: 10px 10px 20px #424242;
+    --mobile-primary-box-shadow: 5px 5px 20px #424242;
 }
 
 body {
@@ -251,7 +252,7 @@ fieldset legend {
 }
 
 .tituloMenu {
-    width: 90%;
+    width: 100%;
     height: 100px;
     font-size: 1.75rem;
     display: flex;
@@ -294,7 +295,7 @@ fieldset legend {
 
 .opcoesItem a:hover {
     border-radius: 10px;
-    background-color: #03A9F4;
+    background-color: var(--tertiary-background-color);
     transition: 0.5s;
 }
 
@@ -323,7 +324,7 @@ header {
 
 .imgCurso {
     width: 50%;
-    height: 500px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
