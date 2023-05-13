@@ -250,48 +250,46 @@ fieldset legend {
     align-items: center;
 }
 
-.menuDiv1 {
-    width: 100%;
+.menuTitulo {
+    width: 90%;
     height: 100px;
-    margin-bottom: 10px;
+    font-size: 1.75rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.menuDiv2 {
+.menuOpcoes {
+    width: 90%;
+}
+
+.nomeOpcoes {
+    font-size: 1.10rem;
+    margin: 20px 0px;
+}
+
+.turmasOpcoes {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.tituloOpcao {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
+.turmasOpcoes a {
+    padding: 20px 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
 }
 
-.opcoesTurmas {
-    width: 90%;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.turmasOpcoes a i {
+    font-size: 1.25rem;
+    padding-right: 10px;
 }
 
-.opcoesTurmas button {
-    width: 90%;
-    height: 45px;
-    margin-top: 10px;
-    color: var(--segundary-text-color);
-    background-color:var(--segundary-background-color);
-    border: var(--primary-border-style);
-    cursor: pointer;
-}
-
-.opcoesTurmas button:hover {
+.turmasOpcoes a:hover {
+    border-radius: 10px;
     background-color: #03A9F4;
+    transition: 0.5s;
 }
 
 .telaPrincipal {
@@ -300,6 +298,7 @@ fieldset legend {
     background-color: var(--primary-background-color);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
@@ -311,7 +310,6 @@ header {
 }
 
 .conteudoPrincipal {
-    height: calc(100vh - 125px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -328,4 +326,9 @@ header {
 .imgCurso img {
     max-width: 100%;
     max-height: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
 }
