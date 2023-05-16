@@ -367,11 +367,15 @@ header {
 #btnUploadImg {
     background-color: #fff;
     border: none;
-    cursor: pointer;  
+    cursor: pointer;
 }
 
 #btnUploadImg i {
     font-size: 5rem;
+}
+
+#inputImgUp {
+    display: none;
 }
 
 footer {

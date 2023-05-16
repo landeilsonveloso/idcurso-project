@@ -14,3 +14,7 @@ function fazerLogin() {
         window.location.href = "telaCurso.html"
     }
 }
+
+function subirImg() {
+    document.getElementById("inputImgUp").click()
+}
