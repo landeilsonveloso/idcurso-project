@@ -71,11 +71,14 @@
             </header>
 
             <div class="conteudoPrincipal">
-                <div class="imgCurso">
-                    <button id="btnUploadImg" onclick="subirImg()">
+                <div id="divImgCurso" class="imgCursoStyle">
+                    <button id="btnUploadImg" class="btnStyle" onclick="subirImg()" onchange="previewImg(event)">
                         <i class="bi bi-image"></i>
+                        Upload
                         <input id="inputImgUp" type="file">
                     </button>
+
+                    <img id="imgCurso" src="" alt="">
                 </div>
             </div>
 
