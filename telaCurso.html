@@ -12,17 +12,17 @@
 
     <body>
         <nav class="menu">
-            <div class="tituloMenu">
+            <div class="divTituloMenu">
                 <span>idCurso</span>
             </div>
 
-            <div class="itensMenu">
-                <div class="itemMenu">
-                    <div class="nomeItem">
+            <div class="divItensMenu">
+                <div class="divItemMenu">
+                    <div class="divNomeItem">
                         <span>Turmas</span>
                     </div>
                     
-                    <div class="opcoesItem">
+                    <div class="divOpcoesItem">
                         <a href="#">
                             <i class="bi bi-pip"></i>
                             <span>2023.2 - Manhã</span>
@@ -35,12 +35,12 @@
                     </div>
                 </div>
 
-                <div class="itemMenu">
-                    <div class="nomeItem">
+                <div class="divItemMenu">
+                    <div class="divNomeItem">
                         <span>Configurações</span>
                     </div>
     
-                    <div class="opcoesItem">
+                    <div class="divOpcoesItem">
                         <a href="#">
                             <i class="bi bi-person-square"></i>
                             <span>Perfil</span>
@@ -57,11 +57,11 @@
 
         <div class="telaPrincipal">
             <header>
-                <div class="tituloTela">
+                <div class="divTituloTela">
                     <h1>Nome do Curso</h1>
                 </div>
 
-                <div class="iconesCabecalho">
+                <div class="divIconesCabecalho">
                     <div>
                         <a href="#">
                             <i class="bi bi-bell"></i>
@@ -70,12 +70,12 @@
                 </div>
             </header>
 
-            <div class="conteudoPrincipal">
-                <div id="divImgCurso" class="imgCursoStyle">
-                    <button id="btnUploadImg" class="btnStyle" onclick="subirImg()" onchange="previewImg(event)">
+            <div class="divConteudoPrincipal">
+                <div id="divBtnSubirImg" class="divBtnSubirImgStyle">
+                    <button id="btnSubirImg" class="btnSubirIngStyle" onclick="subirImg()" onchange="previewImg(event)">
                         <i class="bi bi-image"></i>
                         Upload
-                        <input id="inputImgUp" type="file">
+                        <input id="inputSubirImg" type="file">
                     </button>
 
                     <img id="imgCurso" src="" alt="">

@@ -16,20 +16,20 @@ function fazerLogin() {
 }
 
 function subirImg() {
-    document.getElementById("inputImgUp").click()
+    document.getElementById("inputSubirImg").click()
 }
 
 function previewImg(event) {
-    let img = document.getElementById("imgCurso")
-    img.src = URL.createObjectURL(event.target.files[0])
+    let imgCurso = document.getElementById("imgCurso")
+    imgCurso.src = URL.createObjectURL(event.target.files[0])
 
-    let btnUploadImg = document.getElementById("btnUploadImg")
+    let btnSubirImg = document.getElementById("btnSubirImg")
 
-    btnUploadImg.classList.remove("btnStyle")
-    btnUploadImg.classList.add("displayNone")
+    btnSubirImg.classList.remove("btnSubirIngStyle")
+    btnSubirImg.classList.add("displayNone")
 
-    let divImgCurso = document.getElementById("divImgCurso")
+    let divBtnSubirImg = document.getElementById("divBtnSubirImg")
     
-    divImgCurso.classList.remove("imgCursoStyle")
-    divImgCurso.classList.add("borderNone")
+    divBtnSubirImg.classList.remove("divBtnSubirImgStyle")
+    divBtnSubirImg.classList.add("borderNone")
 }
