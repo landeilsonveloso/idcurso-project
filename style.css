@@ -7,8 +7,8 @@
     --primary-text-color: #000;
     --segundary-text-color: #fff;
     --primary-border-style: 1px solid #fff;
-    --desktop-primary-box-shadow: 10px 10px 20px #424242;
-    --mobile-primary-box-shadow: 5px 5px 20px #424242;
+    --desktop-primary-box-shadow: 5px 5px 10px #424242;
+    --mobile-primary-box-shadow: 5px 5px 10px #424242;
 }
 
 body {
@@ -76,17 +76,17 @@ fieldset legend {
     align-self: center;
 }
 
-.divTitle {
+.divTituloForm {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.divTitle span {
+.divTituloForm span {
     font-size: 1.5rem;
 }
 
-.divInput {
+.divInputsForm {
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -103,23 +103,23 @@ fieldset legend {
     margin: 10px 0px 10px 0px;
 }
 
-.divInput span {
+.divInputsForm span {
     font-size: 0.90rem;
     display: flex;
     justify-content: end;
 }
 
-.divInput span a {
+.divInputsForm span a {
     color: var(--segundary-text-color);
 }
 
-.divBtn {
+.divBtnForm {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.divBtn button {
+.divBtnForm button {
     font-size: 1.25rem;
     padding: 10px 20px;
     border-radius: 5%;
@@ -173,27 +173,27 @@ fieldset legend {
         font-size: 0.75rem;
     }
 
-    .divTitle span {
+    .divTituloForm span {
         font-size: 1.25rem;
     }
 
-    .divInput {
+    .divInputsForm {
         width: 100%;
     }
 
-    .divInput label {
+    .divInputsForm label {
         font-size: 0.75rem;
     }
   
-    .divInput input {
+    .divInputsForm input {
         font-size: 0.65rem;
     }
 
-    .divInput span {
+    .divInputsForm span {
         font-size: 0.65rem;
     }
     
-    .divBtn button {
+    .divBtnForm button {
         font-size: 0.75rem;
     }
 }
@@ -218,23 +218,23 @@ fieldset legend {
         font-size: 0.75rem;
     }
 
-    .divInput {
+    .divInputsForm {
         width: 100%;
     }
 
-    .divInput label {
+    .divInputsForm label {
         font-size: 0.75rem;
     }
   
-    .divInput input {
+    .divInputsForm input {
         font-size: 0.65rem;
     }
 
-    .divInput span {
+    .divInputsForm span {
         font-size: 0.65rem;
     }
     
-    .divBtn button {
+    .divBtnForm button {
         font-size: 0.75rem;
     }
 }
