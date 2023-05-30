@@ -1,7 +1,7 @@
 /*GERAL*/
 
 :root {
-    --primary-background-color: #fff;
+    --primary-background-color: #FAFAFA;
     --segundary-background-color: #0277BD;
     --tertiary-background-color: #03A9F4;
     --primary-text-color: #000;
@@ -313,9 +313,6 @@ fieldset legend {
 header {
     width: 100%;
     height: 100px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
 }
 
 .divTituloTela {
@@ -460,11 +457,16 @@ footer {
     width: 90%;
     height: 75px;
     border-radius: 10px;
-    border: var(--segundary-border-style);
     margin-top: 25px;
+    border: var(--segundary-border-style);
+    background-color: #F5F5F5;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.divAula:hover {
+    cursor: pointer;
 }
 
 .divDescricaoAula {
@@ -478,7 +480,7 @@ footer {
 }
 
 .divAcoesAula button {
-    background-color: var(--primary-background-color);
+    background-color: #F5F5F5;
     border: none;
     cursor: pointer;
 }
