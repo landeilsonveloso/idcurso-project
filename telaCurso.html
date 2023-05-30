@@ -56,30 +56,25 @@
         </nav>
 
         <div class="telaPrincipal">
-            <header>
-                <div class="divTituloTela">
+            <header></header>
+
+            <div class="divConteudoPrincipal">
+                <div class="divTituloPrincipal">
                     <h1>Nome do Curso</h1>
                 </div>
 
-                <div class="divIconesCabecalho">
-                    <div>
-                        <a href="#">
-                            <i class="bi bi-bell"></i>
-                        </a>
+                <div class="divImgCurso">
+                    <div id="divBtnSubirImg" class="divBtnSubirImgStyle">
+                        <button id="btnSubirImg" class="btnSubirIngStyle" onclick="subirImg()" onchange="previewImg(event)">
+                            <i class="bi bi-image"></i>
+                            Upload
+                            <input id="inputSubirImg" type="file">
+                        </button>
+    
+                        <img id="imgCurso" src="" alt="">
                     </div>
                 </div>
-            </header>
 
-            <div class="divConteudoPrincipal">
-                <div id="divBtnSubirImg" class="divBtnSubirImgStyle">
-                    <button id="btnSubirImg" class="btnSubirIngStyle" onclick="subirImg()" onchange="previewImg(event)">
-                        <i class="bi bi-image"></i>
-                        Upload
-                        <input id="inputSubirImg" type="file">
-                    </button>
-
-                    <img id="imgCurso" src="" alt="">
-                </div>
             </div>
 
             <footer></footer>
