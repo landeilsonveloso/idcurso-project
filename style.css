@@ -20,7 +20,7 @@ body {
     background-color: var(--primary-background-color);
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
 }
 
@@ -243,10 +243,12 @@ fieldset legend {
 /*TELA DO CURSO*/
 
 .menu {
-    width: 20%;
+    width: 17.5%;
     height: 100vh;
+    left: 0;
     color: var(--segundary-text-color);
     background-color: var(--segundary-background-color);
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -301,12 +303,12 @@ fieldset legend {
 }
 
 .telaPrincipal {
-    width: 100%;
+    width: 82.5%;
     height: 100vh;
     background-color: var(--primary-background-color);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -415,11 +417,10 @@ footer {
 
 .divConteudoPrincipal {
     width: 75%;
-    height: 750px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .divTituloPrincipal {
@@ -431,7 +432,6 @@ footer {
 
 .divHistoricoAulas {
     width: 90%;
-    height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -445,7 +445,6 @@ footer {
 
 .divAulas {
     width: 90%;
-    height: 550px;
     border-radius: 10px;
     border: var(--segundary-border-style);
     display: flex;
@@ -453,11 +452,15 @@ footer {
     align-items: center;
 }
 
+#aula01 {
+    margin-top: 25px;
+}
+
 .divAula {
     width: 90%;
     height: 75px;
     border-radius: 10px;
-    margin-top: 25px;
+    margin-bottom: 25px;
     border: var(--segundary-border-style);
     background-color: #F5F5F5;
     display: flex;
