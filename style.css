@@ -1,35 +1,17 @@
-/*GERAL*/
-
 :root {
     --primary-background-color: #FAFAFA;
     --segundary-background-color: #0277BD;
     --tertiary-background-color: #03A9F4;
-    --primary-text-color: #000;
-    --segundary-text-color: #fff;
-    --primary-border-style: 1px solid #fff;
-    --segundary-border-style: 1px solid #000;
-    --desktop-primary-box-shadow: 5px 5px 10px #424242;
-    --mobile-primary-box-shadow: 5px 5px 10px #424242;
+    --primary-text-color: #424242;
+    --segundary-text-color: #FAFAFA;
+    --primary-border-style: 1px solid #FAFAFA;
+    --segundary-border-style: 1px solid #ccc;
 }
-
-body {
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    height: 100vh;
-    background-color: var(--primary-background-color);
-    box-sizing: border-box;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-
-/*TELA DE LOGIN*/
 
 .divTelaLogin {
     width: 100%;
-    height: 100%;
-    background-color: #E1F5FE;
+    height: 100vh;
+    background-color: var(--primary-background-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +29,6 @@ form {
     width: 75%;
     height: 550px;
     border-radius: 5%;
-    box-shadow: var(--desktop-primary-box-shadow);
     background-color: var(--segundary-background-color);
     display: flex;
     justify-content: center;
@@ -58,8 +39,8 @@ fieldset {
     width: 85%;
     height: 500px;
     border-radius: 5%;
-    color: var(--segundary-text-color);
     border: var(--primary-border-style);
+    color: var(--segundary-text-color);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -130,120 +111,18 @@ fieldset legend {
     cursor: pointer;
 }
 
-@media (max-width: 1400px) {
-    .divForm {
-        width: 45%;
-    }
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--primary-background-color);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: end;
 }
-
-@media (max-width: 1200px) {
-    .divForm {
-        width: 50%;
-    }
-}
-
-@media (max-width: 992px) {
-    .divForm {
-        width: 60%;
-    }
-}
-
-@media (max-width: 768px) {
-    .divForm {
-        width: 80%;
-    }
-}
-
-@media (max-width: 576px) {
-    .divForm {
-        width: 100%;
-    }
-
-    form {
-        width: 70%;
-        height: 400px;
-        box-shadow: var(--mobile-primary-box-shadow);
-    }
-
-    fieldset {
-        width: 80%;
-        height: 350px;
-    }
-
-    fieldset legend {
-        font-size: 0.75rem;
-    }
-
-    .divTituloForm span {
-        font-size: 1.25rem;
-    }
-
-    .divInputsForm {
-        width: 100%;
-    }
-
-    .divInputsForm label {
-        font-size: 0.75rem;
-    }
-  
-    .divInputsForm input {
-        font-size: 0.65rem;
-    }
-
-    .divInputsForm span {
-        font-size: 0.65rem;
-    }
-    
-    .divBtnForm button {
-        font-size: 0.75rem;
-    }
-}
-
-@media (max-width: 500px) {
-    .divForm {
-        width: 100%;
-    }
-
-    form {
-        width: 80%;
-        height: 400px;
-        box-shadow: var(--mobile-primary-box-shadow);
-    }
-
-    fieldset {
-        width: 80%;
-        height: 350px;
-    }
-
-    fieldset legend {
-        font-size: 0.75rem;
-    }
-
-    .divInputsForm {
-        width: 100%;
-    }
-
-    .divInputsForm label {
-        font-size: 0.75rem;
-    }
-  
-    .divInputsForm input {
-        font-size: 0.65rem;
-    }
-
-    .divInputsForm span {
-        font-size: 0.65rem;
-    }
-    
-    .divBtnForm button {
-        font-size: 0.75rem;
-    }
-}
-
-/*TELA DO CURSO*/
 
 .menu {
-    width: 17.5%;
+    width: 15%;
     height: 100vh;
     left: 0;
     color: var(--segundary-text-color);
@@ -255,7 +134,7 @@ fieldset legend {
 }
 
 .divTituloMenu {
-    width: 100%;
+    width: 90%;
     height: 100px;
     font-size: 1.75rem;
     display: flex;
@@ -288,167 +167,104 @@ fieldset legend {
     padding: 15px;
     margin-bottom: 5px;
     text-decoration: none;
-    color: #fff;
+    color: var(--segundary-text-color);
     display: flex;
     align-items: center;
 }
 
 .divOpcoesItem a:hover {
+    transition: 0.5s;
     border-radius: 10px;
     background-color: var(--tertiary-background-color);
-    transition: 0.5s;
 }
 
 .divOpcoesItem a i {
     font-size: 1.25rem;
     padding-right: 10px;
-    display: flex;
-    align-items: center;
 }
 
-.telaPrincipal {
-    width: 82.5%;
+main {
+    width: 85%;
     height: 100vh;
-    background-color: var(--primary-background-color);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
 header {
-    width: 100%;
+    width: 85%;
     height: 100px;
+    top: 0;
+    background-color: var(--primary-background-color);
+    position: fixed;
+    border-bottom: var(--segundary-border-style);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav span {
+    width: 25%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav span a {
+    padding: 15px;
+    color: var(--primary-text-color);
+    text-align: center;
+    text-decoration: none;
+}
+
+nav span a:hover {
+    transition: 0.5s;
+    border-radius: 10px;
+    border: var(--segundary-border-style);
+}
+
+.divConteudoPrincipal {
+    width: 75%;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .divTituloTela {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.divIconesCabecalho {
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.divIconesCabecalho div {
-    width: 80%;
-    height: 50%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-
-.divIconesCabecalho div i {
-    font-size: 2rem;
-}
-
-.divConteudoPrincipal {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.divImgCurso {
-    width: 90%;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.divBtnSubirImgStyle {
-    width: 75%;
-    height: 500px;
-    border-radius: 15px;
-    border: 2px dashed #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.btnSubirIngStyle {
-    font-size: 1.5rem;
-    background-color: #fff;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.btnSubirIngStyle i {
-    font-size: 5rem;
-}
-
-#inputSubirImg {
-    display: none;
-}
-
-#imgCurso {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-footer {
     width: 100%;
     height: 100px;
-}
-
-.displayNone {
-    display: none;
-}
-
-.borderNone {
-    width: 40%;
-    height: 400px;
-    border-radius: 15px;
-    border: none;
+    border-radius: 10px;
+    border: var(--segundary-border-style);
+    color: var(--primary-text-color);
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/*TELA TURMA*/
-
-.divConteudoPrincipal {
-    width: 75%;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.divTituloPrincipal {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .divHistoricoAulas {
-    width: 90%;
+    width: 100%;
+    margin: 75px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .divTituloSecao {
-    width: 90%;
-    display: flex;
-    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
 }
 
 .divAulas {
-    width: 90%;
+    width: 100%;
     border-radius: 10px;
     border: var(--segundary-border-style);
     display: flex;
@@ -456,43 +272,14 @@ footer {
     align-items: center;
 }
 
-#aula01 {
+#divAula1 {
     margin-top: 25px;
 }
 
 .divAula {
-    width: 90%;
-    height: 75px;
-    border-radius: 10px;
-    margin-bottom: 25px;
-    border: var(--segundary-border-style);
-    background-color: #F5F5F5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.divAula:hover {
-    cursor: pointer;
-}
-
-.divDescricaoAula {
     width: 75%;
-}
-
-.divAcoesAula {
-    width: 20%;
-    display: flex;
-    justify-content: end;
-}
-
-.divAcoesAula button {
-    background-color: #F5F5F5;
-    border: none;
-    cursor: pointer;
-}
-
-.divAcoesAula button i {
-    font-size: 1.5rem;
-    color: #2E7D32;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: var(--segundary-border-style);
 }
