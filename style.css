@@ -1,17 +1,18 @@
 :root {
-    --primary-background-color: #FAFAFA;
-    --segundary-background-color: #0277BD;
-    --tertiary-background-color: #03A9F4;
-    --primary-text-color: #424242;
-    --segundary-text-color: #FAFAFA;
-    --primary-border-style: 1px solid #FAFAFA;
-    --segundary-border-style: 1px solid #ccc;
+    --gray-50-background-color: #FAFAFA;
+    --light-blue-800-background-color: #0277BD;
+    --light-blue-500-background-color: #03A9F4;
+    --gray-800-text-color: #424242;
+    --gray-50-text-color: #FAFAFA;
+    --gray-50-border-style: 1px solid #FAFAFA;
+    --ccc-border-style: 1px solid #CCC;
+    --gray-800-border-style: 1px solid #424242;
 }
 
 .divTelaLogin {
     width: 100%;
     height: 100vh;
-    background-color: var(--primary-background-color);
+    background-color: var(--gray-50-background-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +30,7 @@ form {
     width: 75%;
     height: 550px;
     border-radius: 5%;
-    background-color: var(--segundary-background-color);
+    background-color: var(--light-blue-800-background-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,8 +40,8 @@ fieldset {
     width: 85%;
     height: 500px;
     border-radius: 5%;
-    border: var(--primary-border-style);
-    color: var(--segundary-text-color);
+    border: var(--gray-50-border-style);
+    color: var(--gray-50-text-color);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -51,9 +52,9 @@ fieldset legend {
     font-size: 1.25rem;
     padding: 10px 15px;
     border-radius: 5%;
-    border: var(--primary-border-style);
-    color: var(--segundary-text-color);
-    background-color: var(--segundary-background-color);
+    border: var(--gray-50-border-style);
+    color: var(--gray-50-text-color);
+    background-color: var(--light-blue-800-background-color);
     margin: auto;
     align-self: center;
 }
@@ -92,7 +93,7 @@ fieldset legend {
 }
 
 .divInputsForm span a {
-    color: var(--segundary-text-color);
+    color: var(--gray-50-text-color);
 }
 
 .divBtnForm {
@@ -105,9 +106,9 @@ fieldset legend {
     font-size: 1.25rem;
     padding: 10px 20px;
     border-radius: 5%;
-    color: var(--segundary-text-color);
-    background-color: var(--segundary-background-color);
-    border: var(--primary-border-style);
+    color: var(--gray-50-text-color);
+    background-color: var(--light-blue-800-background-color);
+    border: var(--gray-50-border-style);
     cursor: pointer;
 }
 
@@ -115,7 +116,7 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    background-color: var(--primary-background-color);
+    background-color: var(--gray-50-background-color);
     box-sizing: border-box;
     display: flex;
     justify-content: end;
@@ -125,8 +126,8 @@ body {
     width: 15%;
     height: 100vh;
     left: 0;
-    color: var(--segundary-text-color);
-    background-color: var(--segundary-background-color);
+    color: var(--gray-50-text-color);
+    background-color: var(--light-blue-800-background-color);
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -167,7 +168,7 @@ body {
     padding: 15px;
     margin-bottom: 5px;
     text-decoration: none;
-    color: var(--segundary-text-color);
+    color: var(--gray-50-text-color);
     display: flex;
     align-items: center;
 }
@@ -175,7 +176,7 @@ body {
 .divOpcoesItem a:hover {
     transition: 0.5s;
     border-radius: 10px;
-    background-color: var(--tertiary-background-color);
+    background-color: var(--light-blue-500-background-color);
 }
 
 .divOpcoesItem a i {
@@ -195,9 +196,9 @@ header {
     width: 85%;
     height: 100px;
     top: 0;
-    background-color: var(--primary-background-color);
+    background-color: var(--gray-50-background-color);
     position: fixed;
-    border-bottom: var(--segundary-border-style);
+    border-bottom: var(--ccc-border-style);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,7 +221,7 @@ nav span {
 
 nav span a {
     padding: 15px;
-    color: var(--primary-text-color);
+    color: var(--gray-800-text-color);
     text-align: center;
     text-decoration: none;
 }
@@ -228,7 +229,7 @@ nav span a {
 nav span a:hover {
     transition: 0.5s;
     border-radius: 10px;
-    border: var(--segundary-border-style);
+    border: var(--ccc-border-style);
 }
 
 .divConteudoPrincipal {
@@ -244,8 +245,8 @@ nav span a:hover {
     height: 100px;
     font-size: 1.5rem;
     border-radius: 10px;
-    border: var(--segundary-border-style);
-    color: var(--primary-text-color);
+    border: var(--ccc-border-style);
+    color: var(--gray-800-text-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -255,7 +256,7 @@ nav span a:hover {
     width: 45%;
     height: 575px;
     margin-top: 250px;
-    border: var(--segundary-border-style);
+    border: var(--ccc-border-style);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -282,7 +283,7 @@ nav span a:hover {
 .divAulas {
     width: 100%;
     border-radius: 10px;
-    border: var(--segundary-border-style);
+    border: var(--ccc-border-style);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -297,5 +298,5 @@ nav span a:hover {
     padding: 20px;
     margin-bottom: 25px;
     border-radius: 10px;
-    border: var(--segundary-border-style);
+    border: var(--ccc-border-style);
 }
