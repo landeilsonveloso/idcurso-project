@@ -93,21 +93,36 @@
 
                 <div class="secao">
                     <div class="divTituloSecao">
-                        <span>Historico de Aulas</span>
+                        <span>Resgistro de Aula</span>
                     </div>
 
                     <div class="divConteudoSecao">
-                        <div id="divAula1" class="divAula">
-                            <span>Descrição da Aula</span>
-                        </div>
+                        <form class="formRegistroAula" action="">
+                            <fieldset>
+                                <label id="labelDescricaoAula" class="labelStyle1" for="">Descrição da Aula</label>
+                                <input class="inputStyle1" type="text">
 
-                        <div class="divAula">
-                            <span>Descrição da Aula</span>
-                        </div>
+                                <label class="labelStyle1" for="">Data da Aula</label>
+                                <input class="inputStyle1" type="date">
 
-                        <div class="divAula">
-                            <span>Descrição da Aula</span>
-                        </div>
+                                <div class="divFrequencia">
+                                    <div class="divTituloSubSecao">
+                                        <label>Frenquêcia</label>
+                                    </div>
+
+                                    <div class="alunosFrenquecia">
+                                        <div>
+                                            <input class="inputStyle2" type="checkbox" name="" id="">
+                                            <label for="">Nome do Aluno</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="divBtnFormAula">
+                                    <button type="button">Registrar Aula</button>
+                                </div>
+                            </fieldset>
+                        </form>
                     </div>
                 </div>
             </div>

@@ -26,7 +26,7 @@
     align-items: center;
 }
 
-form {
+.formLogin {
     width: 75%;
     height: 550px;
     border-radius: 5%;
@@ -36,7 +36,7 @@ form {
     align-items: center;
 }
 
-fieldset {
+.formLogin fieldset {
     width: 85%;
     height: 500px;
     border-radius: 5%;
@@ -48,7 +48,7 @@ fieldset {
     align-items: center;
 }
 
-fieldset legend {
+.formLogin fieldset legend {
     font-size: 1.25rem;
     padding: 10px 15px;
     border-radius: 5%;
@@ -184,6 +184,10 @@ body {
     padding-right: 10px;
 }
 
+.divOpcoesItem a span {
+    text-align: center;
+}
+
 main {
     width: 85%;
     height: 100vh;
@@ -231,6 +235,10 @@ nav a:hover {
     border: var(--ccc-border-style);
 }
 
+nav span {
+    text-align: center;
+}
+
 .divConteudoPrincipal {
     width: 75%;
     margin-top: 200px;
@@ -251,24 +259,10 @@ nav a:hover {
     justify-content: center;
 }
 
-.divLogoProjeto {
-    width: 45%;
-    height: 575px;
-    margin-top: 250px;
-    border: var(--ccc-border-style);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.divLogoProjeto img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.divHistoricoAulas {
+.secao {
     width: 100%;
     margin: 75px 0px;
+    border-radius: 10px;
     color: var(--gray-800-text-color);
     display: flex;
     flex-direction: column;
@@ -277,13 +271,24 @@ nav a:hover {
 
 .divTituloSecao {
     width: 100%;
-    margin-bottom: 25px;
+    height: 75px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: var(--ccc-border-style);
+    display: flex;
+    align-items: center;
 }
 
-.divAulas {
+.divTituloSecao span {
+    margin-left: 25px;
+}
+
+.divConteudoSecao {
     width: 100%;
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     border: var(--ccc-border-style);
+    border-top: none;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -299,4 +304,65 @@ nav a:hover {
     margin-bottom: 25px;
     border-radius: 10px;
     border: var(--ccc-border-style);
+}
+
+.formRegistroAula {
+    width: 75%;
+    margin: 25px;
+}
+
+.formRegistroAula fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+#labelDescricaoAula {
+    margin-top: 25px;
+}
+
+.formRegistroAula fieldset .labelStyle1 {
+    margin-bottom: 10px;
+}
+
+.formRegistroAula fieldset .inputStyle1 {
+    height: 35px;
+    padding: 0px 10px;
+    font-size: 0.9rem;
+    margin-bottom: 35px;
+    color: var(--gray-800-text-color);
+}
+
+.formRegistroAula fieldset .divFrequencia {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formRegistroAula fieldset .divFrequencia .divTituloSubSecao {
+    margin: 10px 0px 35px 0px;
+}
+
+.formRegistroAula fieldset .divFrequencia .alunosFrenquecia {
+    margin-left: 50px;
+}
+
+.formRegistroAula fieldset .divFrequencia .alunosFrenquecia div {
+    margin-bottom: 25px;
+}
+
+.formRegistroAula fieldset .divBtnFormAula {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formRegistroAula fieldset .divBtnFormAula button {
+    font-size: 1rem;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: var(--gray-50-text-color);
+    background-color: var(--light-blue-800-background-color);
+    border: none;
+    cursor: pointer;
 }
