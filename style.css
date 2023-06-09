@@ -265,31 +265,51 @@ nav span {
     align-items: center;
 }
 
-#divAula1 {
-    margin-top: 25px;
-}
-
-.divAula {
-    width: 75%;
-    padding: 20px 25px;
-    margin-bottom: 25px;
-    border-radius: 10px;
-    border: var(--ccc-border-style);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .divTituloSubSecao {
     margin-bottom: 30px;
 }
 
-.divAula a {
-    color: var(--gray-800-text-color);
+.divConteudoSecao table {
+    width: 90%;
+    margin: 50px;
+    border-radius: 10px;
 }
 
-.divAula a i {
+.divConteudoSecao table th, td {
+    padding: 20px;
+    border: var(--ccc-border-style);
+}
+
+.divConteudoSecao table .numAulaTable {
+    width: 5%;
+    text-align: center;
+}
+
+.divConteudoSecao table .dataAulaTable {
+    width: 15%;
+    text-align: center;
+}
+
+.divConteudoSecao table .descricaoAulaTable {
+    width: 75%;
+}
+
+.divConteudoSecao table .acoesAulaTable {
+    width: 5%;
+    text-align: center;
+}
+
+
+.divConteudoSecao table .acoesAulaTable a {
+    text-decoration: none;
+}
+
+.divConteudoSecao table .acoesAulaTable i {
     font-size: 1.25rem;
+    color: #2E7D32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .formRegistroAula {
