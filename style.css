@@ -94,7 +94,7 @@ body {
 }
 
 .menu {
-    width: 15%;
+    width: 20%;
     height: 100vh;
     left: 0;
     color: var(--gray-50-text-color);
@@ -160,7 +160,7 @@ body {
 }
 
 main {
-    width: 85%;
+    width: 80%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -168,7 +168,7 @@ main {
 }
 
 header {
-    width: 85%;
+    width: 80%;
     height: 100px;
     top: 0;
     background-color: var(--gray-50-background-color);
