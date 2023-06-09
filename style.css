@@ -9,109 +9,6 @@
     --gray-800-border-style: 1px solid #424242;
 }
 
-.divTelaLogin {
-    width: 100%;
-    height: 100vh;
-    background-color: var(--gray-50-background-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.divForm {
-    width: 33%;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.formLogin {
-    width: 75%;
-    height: 550px;
-    border-radius: 5%;
-    background-color: var(--light-blue-800-background-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.formLogin fieldset {
-    width: 85%;
-    height: 500px;
-    border-radius: 5%;
-    border: var(--gray-50-border-style);
-    color: var(--gray-50-text-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.formLogin fieldset legend {
-    font-size: 1.25rem;
-    padding: 10px 15px;
-    border-radius: 5%;
-    border: var(--gray-50-border-style);
-    color: var(--gray-50-text-color);
-    background-color: var(--light-blue-800-background-color);
-    margin: auto;
-    align-self: center;
-}
-
-.divTituloForm {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.divTituloForm span {
-    font-size: 1.5rem;
-}
-
-.divInputsForm {
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#email {
-    padding: 5px;
-    margin: 10px 0px 20px 0px;
-}
-
-#senha {
-    padding: 5px;
-    margin: 10px 0px 10px 0px;
-}
-
-.divInputsForm span {
-    font-size: 0.90rem;
-    display: flex;
-    justify-content: end;
-}
-
-.divInputsForm span a {
-    color: var(--gray-50-text-color);
-}
-
-.divBtnForm {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.divBtnForm button {
-    font-size: 1.25rem;
-    padding: 10px 20px;
-    border-radius: 5%;
-    color: var(--gray-50-text-color);
-    background-color: var(--light-blue-800-background-color);
-    border: var(--gray-50-border-style);
-    cursor: pointer;
-}
-
 body {
     width: 100%;
     margin: 0px;
@@ -120,6 +17,80 @@ body {
     box-sizing: border-box;
     display: flex;
     justify-content: end;
+}
+
+.divFormLogin {
+    width: 100%;
+    height: 100vh;
+    background-color: #E1F5FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divFormLogin form {
+    width: 30%;
+    height: 550px;
+    border-radius: 10px;
+    background-color: var(--light-blue-800-background-color);
+    color: var(--gray-50-background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divFormLogin form fieldset {
+    width: 85%;
+    height: 475px;
+    margin: 15px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.divFormLogin form legend {
+    font-size: 1.25rem;
+    padding: 10px 15px;
+    border: var(--gray-50-border-style);
+    margin: auto;
+}
+
+.divTituloForm {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.divFormLogin form .divDadosForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.divFormLogin form .divDadosForm label {
+    margin-bottom: 10px;
+}
+
+.divFormLogin form .divDadosForm input {
+    height: 30px;
+    font-size: 0.9rem;
+    padding: 0px 10px;
+    margin-bottom: 25px;
+    color: var(--gray-800-text-color);
+}
+
+.divFormLogin form .divBntFormLogin {
+    text-align: center;
+}
+
+.divFormLogin form .divBntFormLogin button {
+    font-size: 1rem;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: var(--gray-50-border-style);
+    background-color: var(--light-blue-800-background-color);
+    color: var(--gray-50-background-color);
+    cursor: pointer;
 }
 
 .menu {

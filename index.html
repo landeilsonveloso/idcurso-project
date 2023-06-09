@@ -1,41 +1,37 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Login</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-        <div class="divTelaLogin">
-            <div class="divForm">
-                <form class="formLogin" action="">
-                    <fieldset>
-                        <legend><i>idCurso</i></legend>
-        
-                        <div class="divTituloForm">
-                            <span>Login</span>
-                        </div>
-        
-                        <div class="divInputsForm">
-                            <label for="email">Email</label>
-                            <input id="email" name="email" type="email" placeholder="Email">
-                            <label for="senha">Senha</label>
-                            <input id="senha" name="senha" type="password" placeholder="Senha">
-                            <span><a href="">esqueceu senha?</a></span>
-                        </div>
-        
-                        <div class="divBtnForm">
-                            <button type="button" onclick="fazerLogin()">Entrar</button>
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
-    </body>
+<body>
+    <div class="divFormLogin">
+        <form action="">
+            <fieldset>
+                <legend><i>IdCurso</i></legend>
 
+                <div class="divTituloForm">
+                    <span>Login</span>
+                </div>
+
+                <div class="divDadosForm">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="Digite seu email">
+                    <label for="senha">Senha</label>
+                    <input id="senha" type="password" placeholder="Digite sua senha">
+                </div>
+
+                <div class="divBntFormLogin">
+                    <button type="button" onclick="fazerLogin()">Entrar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
     <script src="index.js"></script>
 </html>
