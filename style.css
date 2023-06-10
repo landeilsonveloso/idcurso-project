@@ -269,10 +269,29 @@ nav span {
     margin-bottom: 30px;
 }
 
+.divConteudoSecao .divBtnAddAula {
+    width: 90%;
+    margin-top: 40px;
+    text-align: end;
+}
+
+.divConteudoSecao .divBtnAddAula a {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: var(--gray-50-text-color);
+    text-decoration: none;
+}
+
+.divConteudoSecao .divBtnAddAula a i {
+    padding-right: 5px;
+}
+
 .divConteudoSecao table {
     width: 90%;
-    margin: 50px;
+    margin: 40px 0px;
     border-radius: 10px;
+    color: var(--gray-800-text-color);
 }
 
 .divConteudoSecao table th, td {
@@ -299,17 +318,57 @@ nav span {
     text-align: center;
 }
 
-
 .divConteudoSecao table .acoesAulaTable a {
     text-decoration: none;
 }
 
 .divConteudoSecao table .acoesAulaTable i {
     font-size: 1.25rem;
-    color: #2E7D32;
+    color: var(--gray-800-text-color);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.divConteudoSecao table .nomeAlunoTable {
+    width: 40%;
+}
+
+.divConteudoSecao table .progressoAlunoTable {
+    width: 50%;
+}
+
+.divConteudoSecao table .progressoAlunoTable .barraProgresso {
+    width: 90%;
+    height: 25px;
+    border-radius: 10px;
+    border: var(--ccc-border-style);
+}
+
+.divConteudoSecao table .progressoAlunoTable .barraProgresso #preenchimentoBarra1 {
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #F44336;
+}
+
+.divConteudoSecao table .progressoAlunoTable .barraProgresso #preenchimentoBarra2 {
+    width: 10%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #F44336;
+}
+
+.divConteudoSecao table .progressoAlunoTable .barraProgresso #preenchimentoBarra3 {
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #F44336;
+}
+
+.divConteudoSecao table .porcentagemAlunoTable {
+    width: 10%;
+    text-align: center;
 }
 
 .formRegistroAula {
@@ -349,29 +408,15 @@ nav span {
     margin: 10px 0px 35px 0px;
 }
 
-.formRegistroAula fieldset .divFrequencia .alunosFrenquecia {
+form fieldset .divFrequencia .alunosFrenquecia {
     margin-left: 50px;
 }
 
-.formRegistroAula fieldset .divFrequencia .alunosFrenquecia div {
+form fieldset .divFrequencia .alunosFrenquecia div {
     margin-bottom: 25px;
 }
 
-.formRegistroAula fieldset .divBtnFormAula {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
 
-.formRegistroAula fieldset .divBtnFormAula button {
-    font-size: 1rem;
-    padding: 15px 25px;
-    border-radius: 10px;
-    color: var(--gray-50-text-color);
-    background-color: var(--light-blue-800-background-color);
-    border: none;
-    cursor: pointer;
-}
 
 .divUsuarios {
     width: 75%;
@@ -392,4 +437,68 @@ nav span {
 .divUsuario i {
     font-size: 1.25rem;
     padding-right: 10px;
-} 
+}
+
+.divImgUser {
+    text-align: center;
+}
+
+.divImgUser i {
+    font-size: 10rem;
+    display: flex;
+}
+
+.divConteudoPrincipal form {
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divConteudoPrincipal form fieldset {
+    width: 90%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.divConteudoPrincipal form fieldset label {
+    margin-bottom: 10px;
+}
+
+.divConteudoPrincipal form fieldset #emailPerfil:hover {
+    background-color: var(--gray-50-background-color);
+}
+
+.divConteudoPrincipal form fieldset input {
+    height: 30px;
+    font-size: 0.9rem;
+    padding: 0px 10px;
+    margin-bottom: 25px;
+    color: var(--gray-800-text-color);
+}
+
+form fieldset .divBtnForm {
+    width: 100%;
+    margin-top: 10px;
+}
+
+form fieldset .divBtnForm button {
+    font-size: 0.9rem;
+    padding: 12.5px 20px;
+    border-radius: 10px;
+    color: var(--gray-50-text-color);
+    border: none;
+    cursor: pointer;
+}
+
+form fieldset .divBtnForm #btnSalvar {
+    background-color: var(--light-blue-800-background-color);
+    margin-right: 10px;
+}
+
+form fieldset .divBtnForm #btnCancelar {
+    background-color: #C62828;
+}

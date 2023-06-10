@@ -49,7 +49,7 @@
                     </div>
 
                     <div class="divOpcoesItem">
-                        <a href="perfilUsuario.html">
+                        <a href="#">
                             <i class="bi bi-person-square"></i>
                             <span>Perfil</span>
                         </a>
@@ -66,9 +66,29 @@
         <main>
             <header>
                 <div class="divTituloTela">
-                    <span>Curso Básico de Violão</span>
+                    <span>Perfil do Usuário</span>
                 </div>
             </header>
+
+            <div class="divConteudoPrincipal">
+                <div class="divImgUser">
+                    <i class="bi bi-person-square"></i>
+                </div>
+
+                <form action="">
+                    <fieldset>
+                        <label for="emailPerfil">Email</label>
+                        <input id="emailPerfil" type="email" value="lucianasantos@gmail.com" readonly onclick="apenasLeitura()">
+                        <label for="senhaPerfil">Senha</label>
+                        <input id="senhaPerfil" type="password" value="12345678">
+                        
+                        <div class="divBtnForm">
+                            <button id="btnSalvar" type="button" onclick="msgSalvoSucesso()">Salvar</button>
+                            <button id="btnCancelar" type="button" onclick="cancela('telaCurso.html')">Cancelar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
         </main>
     </body>
         <script src="index.js"></script>

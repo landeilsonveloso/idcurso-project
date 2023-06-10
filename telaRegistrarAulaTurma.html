@@ -47,7 +47,7 @@
                     </div>
 
                     <div class="divOpcoesItem">
-                        <a href="#">
+                        <a href="perfilUsuario.html">
                             <i class="bi bi-person-square"></i>
                             <span>Perfil</span>
                         </a>
@@ -69,9 +69,9 @@
                         <span>Início</span>
                     </a>
 
-                    <a href="telaRegistrarAulaTurma.html">
-                        <i class="bi bi-plus-square"></i>
-                        <span>Registrar Aula</span>
+                    <a href="telaProgressoTurma.html">
+                        <i class="bi bi-bar-chart-fill"></i>
+                        <span>Progresso da Turma</span>
                     </a>
 
                     <a href="telaParticipantesTurma.html">
@@ -95,10 +95,10 @@
                         <form class="formRegistroAula" action="">
                             <fieldset>
                                 <label id="labelDescricaoAula" class="labelStyle1" for="">Descrição da Aula</label>
-                                <input class="inputStyle1" type="text">
+                                <input id="descricaoAula" class="inputStyle1" type="text">
 
                                 <label class="labelStyle1" for="">Data da Aula</label>
-                                <input class="inputStyle1" type="date">
+                                <input id="dataAula" class="inputStyle1" type="date">
 
                                 <div class="divFrequencia">
                                     <div class="divTituloFrequencia">
@@ -123,8 +123,9 @@
                                     </div>
                                 </div>
 
-                                <div class="divBtnFormAula">
-                                    <button type="button">Registrar Aula</button>
+                                <div class="divBtnForm">
+                                    <button id="btnSalvar" type="button" onclick="salvaAula()">Salvar</button>
+                                    <button id="btnCancelar" type="button" onclick="cancela('telaInicialTurma.html')">Cancelar</button>
                                 </div>
                             </fieldset>
                         </form>
@@ -133,4 +134,5 @@
             </div>
         </main>
     </body>
+        <script src="index.js"></script>
 </html>

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -8,7 +9,6 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     </head>
-
     <body>
         <div class="menu">
             <div class="divTituloMenu">
@@ -89,44 +89,45 @@
 
                 <div class="secao">
                     <div class="divTituloSecao">
-                        <span>Diário da Turma</span>
+                        <span>Progresso da Turma</span>
                     </div>
 
                     <div class="divConteudoSecao">
-                        <div class="divBtnAddAula">
-                            <a href="telaRegistrarAulaTurma.html">
-                                <i class="bi bi-plus-square"></i>
-                                <span>Adicionar Aula</span>
-                            </a>
-                        </div>
-
                         <table>
                             <tr>
-                                <th class="numAulaTable">Aula</th>
-                                <th class="dataAulaTable">Data</th>
-                                <th class="descricaoAulaTable">Descrição</th>
-                                <th class="acoesAulaTable">Ações</th>
+                                <th class="nomeAlunoTable">Nome do Aluno</th>
+                                <th class="progressoAlunoTable">Progresso</th>
+                                <th class="porcentagemAlunoTable">%</th>
                             </tr>
 
                             <tr>
-                                <td class="numAulaTable">01</td>
-                                <td class="dataAulaTable">10/06/2023</td>
-                                <td class="descricaoAulaTable">Plano de Curso</td>
-                                <td class="acoesAulaTable"><a href="telaRegistrarAulaTurma.html"><i class="bi bi-pencil-square"></i></a></td>
+                                <td class="nomeAlunoTable">Alane Menesses</td>
+                                <td class="progressoAlunoTable">
+                                    <div class="barraProgresso">
+                                        <div id="preenchimentoBarra1"></div>
+                                    </div>
+                                </td>
+                                <td class="porcentagemAlunoTable">30%</td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="nomeAlunoTable">Aureliano Barcelar</td>
+                                <td class="progressoAlunoTable">
+                                    <div class="barraProgresso">
+                                        <div id="preenchimentoBarra2"></div>
+                                    </div>
+                                </td>
+                                <td class="porcentagemAlunoTable">10%</td>
                             </tr>
 
                             <tr>
-                                <td class="numAulaTable">02</td>
-                                <td class="dataAulaTable">17/06/2023</td>
-                                <td class="descricaoAulaTable">Fundamentos do Violão</td>
-                                <td class="acoesAulaTable"><a href="telaRegistrarAulaTurma.html"><i class="bi bi-pencil-square"></i></a></td>
-                            </tr>
-
-                            <tr>
-                                <td class="numAulaTable">03</td>
-                                <td class="dataAulaTable">24/06/2023</td>
-                                <td class="descricaoAulaTable">Atividade Prática</td>
-                                <td class="acoesAulaTable"><a href="telaRegistrarAulaTurma.html"><i class="bi bi-pencil-square"></i></a></td>
+                                <td class="nomeAlunoTable">Jean Alves</td>
+                                <td class="progressoAlunoTable">
+                                    <div class="barraProgresso">
+                                        <div id="preenchimentoBarra3"></div>
+                                    </div>
+                                </td>
+                                <td class="porcentagemAlunoTable">20%</td>
                             </tr>
                         </table>
                     </div>
